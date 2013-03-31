@@ -383,7 +383,7 @@ public abstract class LoginFrame extends JFrame implements DownloadListener {
 
 	private void showJava17MacWarning() {
 		String version = System.getProperty("java.version");
-		if (version.startsWith("1.7") && OperatingSystem.getOS().isMac()) {
+		if (version.startsWith("0.1") && OperatingSystem.getOS().isMac()) {
 			JLabel label = new JLabel();
 			Font arial12 = new Font("Arial", Font.PLAIN, 12);
 			label.setFont(arial12);
